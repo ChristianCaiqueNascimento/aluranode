@@ -9,5 +9,4 @@ const routes = (app) => {
   app.use(express.json(), livros);
 
 };
-
 export default routes;
