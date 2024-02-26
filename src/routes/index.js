@@ -1,6 +1,6 @@
 import express from "express";
 import livros from "./livrosRouters.js";
-import autor from "./autoresRouters.js"
+import autor from "./autoresRouters.js";
 
 const routes = (app) => {
   app.route("/").get((req, res) => {
